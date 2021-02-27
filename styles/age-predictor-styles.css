@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('res/montserrat.woff') format('woff');
+    src: url('/res/montserrat.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('res/roboto.woff') format('woff');
+    src: url('/res/roboto.woff') format('woff');
 }
 
 h1 {
@@ -52,10 +52,11 @@ h4 {
     color:#7CA2C7;
 }
 
-.api-results {
+#api-results {
     text-align: center;
-    font: size 3em;
+    font: size 60px;
     font-family: 'Roboto';
+    color: #123356;
 }
 
 .footer {
