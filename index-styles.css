@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('res/montserrat.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('res/roboto.woff') format('woff');
+}
+
+h1 {
+    color:#123356;
+    font-size:4em;
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    font-family:"Montserrat";
+}
+
+h3 {
+    margin-top:20px;
+    color:#123356;
+    text-align: center;
+    font-size: 3em;
+}
+
+h4 {
+    text-align: center;
+    color:#8a9eb8;
+    font-size: 3em;
+    font-family:"Roboto";
+}
+
+#stuff {
+    color:#123356;
+}
+
+#weather-form {
+    color:#000000;
+}
+
+#current-weather, #weather-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#7CA2C7;
+}
+
+.forecast-block {
+    color:#7CA2C7;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align:center;
+    font-family: 'Roboto';
+}
+
+.forecast-date {
+    font-family: 'Montserrat';
+    color:#123356;
+}
+
+.icon {
+    max-width:100%;
+    height:auto;
+}
+
+.footer {
+    text-align: center;
+    color: #123356;
+    margin-bottom:30px;
+}
